@@ -46,9 +46,40 @@
    }
 
    .home {
-background-color: rgb(98, 207, 171);
+  background-color: rgb(98, 207, 171);
    }
    .yellow{
 
     background-color: #c7bd31;
    }
+
+     footer {
+       background-color: #f0f0f0;
+       padding: 10px;
+       text-align: center;
+       position: fixed;
+       bottom: 0;
+       width: 100%;}
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 1em;
+             }
+      
+    nav>a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        margin: 0 10px;
+             }
+      
+    nav>a:hover {
+               background-color: #ccc;
+             }
