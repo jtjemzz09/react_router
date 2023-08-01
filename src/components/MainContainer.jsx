@@ -1,10 +1,13 @@
+// Import the required components from "react-router-dom"
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Blue from "./Blue";
 import Red from "./Red";
 import Yellow from "./Yellow";
 
+// Define the MainContainer component as a function
 function MainContainer() {
+    // Return JSX to render the main section with routes
   return (
     <div id="main-section">
       <Routes>
